@@ -14,12 +14,15 @@
 :root {
     --bg-black: #000000;
     --bg-l-black: #141414;
+    --bg-nav: #3f3f4d;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-    background-color: #c9c9c9;
+    /* background-color: #c9c9c9; */
+    background-color: var(--bg-black);
+
 }
 
 #navbar {
@@ -418,7 +421,7 @@ body {
 
     /* -------- Landing page ------- */
     .ongoing-section {
-        padding: 50px 30px;
+        padding: 20px 30px;
     }
 
     .ongoing-section .item {
@@ -454,7 +457,7 @@ body {
 
     /* -------- Landing page ------- */
     .ongoing-section {
-        padding: 50px 30px 40px;
+        padding: 20px 30px 40px;
     }
 
     .ongoing-section .item {
@@ -494,7 +497,7 @@ body {
 
     /* -------- Landing page ------- */
     .ongoing-section {
-        padding: 30px 15px 20px;
+        padding: 20px 15px 20px;
     }
 
     .ongoing-section .item {
@@ -515,8 +518,7 @@ body {
         -webkit-transform: translateY(calc(100% - 42px));
     }
 }
-
-/* Caousel Main Ends Here  */
+/* Carousel Main Ends Here  */
 
 
 /* Main Card Starts */
@@ -528,8 +530,8 @@ body {
 }
 
 .latest-heading {
-    margin: 10px 20px 10px 30px;
-    font-weight: 500;
+    margin: 10px 20px 10px 15px;
+    font-weight: 900;
     font-size: 1.3rem;
 }
 
